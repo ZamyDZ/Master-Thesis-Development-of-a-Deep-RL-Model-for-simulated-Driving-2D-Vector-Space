@@ -1,0 +1,3 @@
+#!/bin/bash
+echo starting DonkeyCar Simulator ...
+/home/zamy/masterthesis/DonkeySimLinux/donkey_sim.x86_64
