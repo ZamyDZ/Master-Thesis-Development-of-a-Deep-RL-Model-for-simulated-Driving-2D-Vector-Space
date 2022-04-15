@@ -50,6 +50,6 @@ RUN pip3 install gym
 WORKDIR /masterthesis
 
 # ADD is for folders and COPY for single files
-#COPY DonkeySimLinux /masterthesis/DonkeySimLinux/
+COPY DonkeySimLinux /masterthesis/DonkeySimLinux/
 COPY /src/birds_eye_vector_space.py /masterthesis/src/
 COPY /src/startSim.sh /masterthesis/src/
