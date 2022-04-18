@@ -31,8 +31,8 @@ RUN mkdir masterthesis/DonkeySimLinux
 RUN mkdir masterthesis/src 
 RUN apt-get update 
 RUN apt-get install nano 
-RUN apt-get install sublime-text 
-RUN apt install lubuntu-desktop lightd 
+#RUN apt-get install sublime-text 
+#RUN apt install lubuntu-desktop lightd 
 RUN apt-get install build-essential -y
 RUN apt-get install python3 -y 
 RUN apt install python3-pip -y 

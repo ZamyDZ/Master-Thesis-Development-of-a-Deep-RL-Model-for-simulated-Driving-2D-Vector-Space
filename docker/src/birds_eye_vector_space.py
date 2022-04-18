@@ -38,7 +38,8 @@ class Vector_space:
         '''
         print('loading camera parameters')
         # TODO: CHANGE THE PATH TO USE PWD AND THEN THE FOLLOW UP DIRECTORY
-        camera_parameters_path = '/home/zamy/masterthesis/donkeycar_camera_calibration/camera_parameters/camera_parameters.pkl'
+        #camera_parameters_path = '/home/zamy/masterthesis/donkeycar_camera_calibration/camera_parameters/camera_parameters.pkl'
+        camera_parameters_path = 'C:\\Users\\studwilksa2535\\Desktop\\DonkeyCarAI\\Master-Thesis-Development-of-a-Deep-RL-Model-for-simulated-Driving-2D-Vector-Space\\docker\\camera_parameters\\camera_parameters.pkl'
         cam_parameters = open(camera_parameters_path,'rb')
         #camera_parameters = pickle.load(cam_par)
         return pickle.load(cam_parameters)
